@@ -33,4 +33,4 @@ Targets:
 
 Github Pages: https://dengjiawen8955.github.io/bmft-blog/
 
-Website: https://bmft.tech/bmft-blog/
+Website: https://bmft.tech/blogs/
