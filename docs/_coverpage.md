@@ -1,5 +1,5 @@
-# docsify-template <small>0.0</small>
+# bmft-blog <small>0.0</small>
 
-> 自动生成目录的 docsify 手脚架模板。
+> 邓嘉文Jarvan的个人博客。
 
 [Get Started](#introduction)
