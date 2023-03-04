@@ -2,7 +2,7 @@ version: '3.4'
 services:
   dt:
     image: "nginx:latest"
-    container_name: dt_nginx
+    container_name: blog_nginx
     volumes:
       - ./docs/:/usr/share/nginx/html/
     ports:
