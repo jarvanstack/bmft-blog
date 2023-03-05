@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>doc2</title>
+  <title id="title">docsify-template</title>
   <!-- logo -->
   <link rel="icon" href="_media/favicon.ico" />
 
@@ -11,15 +11,21 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- 主题 -->
+  <!-- <link rel="stylesheet" href="_media/css/vue.css"> -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
 </head>
 
 <body>
   <div id="app">加载中...</div>
+  <script src="config.js"></script>
   <script>
-    // 定义变量
-    let repo = 'https://github.com/dengjiawen8955/bmft-blog'
+    var myRepo = repo;
+    console.log('myRepo:');
+    console.log(myRepo);
+  </script>
 
+  <script>
 
     window.$docsify = {
       auto2top: true,
@@ -30,8 +36,11 @@
       // mergeNavbar: true,
       maxLevel: 4,
       subMaxLevel: 2,
-      repo: repo,
+      repo: myRepo,
       formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md' // See #301
+      },
       // 字数统计
       count: {
         countable: true,
@@ -57,7 +66,7 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            let edit_base_url = repo + '/blob/master/docs/';
+            let edit_base_url = myRepo + '/blob/master/docs/';
             let edit_url =
               edit_base_url +
               vm.route.file;
@@ -76,8 +85,6 @@
   </script>
   <!-- cdn -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <!-- 表情 -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script> -->
   <!-- 全文搜索 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 图片缩放 -->

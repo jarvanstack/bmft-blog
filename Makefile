@@ -35,7 +35,7 @@ update: push
 .PHONY: serve
 serve: gen
 	# 使用 nginx 代理 docs 目录
-	docker run --rm -it -p 4002:80 -v $(make_dir)/docs:/usr/share/nginx/html:ro nginx
+	docker run --rm -it -p 3000:80 -v $(make_dir)/docs:/usr/share/nginx/html:ro nginx
 
 
 ## help: Show this help info.
