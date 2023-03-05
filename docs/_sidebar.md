@@ -1,6 +1,7 @@
-* [README](README.md)
+# 目录
+
+* [](README.md)
 - 大学
     * [弯道超车的机会](1-大学/0302-弯道超车的机会.md)
     * [目标](1-大学/0304-目标.md)
-* [Contact](contact.md)
 
