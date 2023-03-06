@@ -4,7 +4,7 @@
 usage() {
   echo "Usage: $0 <down|merge> <input> [<output>]"
   printf 'Example:
-  ./script.sh down docs/index.html docs/lib/
+  ./script.sh down docs/script.bk docs/lib/
   ./script.sh merge docs/lib/ docs/lib/merge.js
   '
   exit 1
