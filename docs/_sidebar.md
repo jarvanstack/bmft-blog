@@ -1,5 +1,4 @@
 * [README](README.md)
-- 思维实验
-    * [弯道超车的机会](1-思维实验/0302-弯道超车的机会.md)
-    * [目标](1-思维实验/0304-目标.md)
+- Throught
+    * [Change-Of- Corner-Overtaking](1-throught/0302-change-of-%20corner-overtaking.md)
 
