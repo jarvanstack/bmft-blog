@@ -1,7 +1,20 @@
-## Introduction
+## bmft-blog
+
+邓嘉文Jarvan的个人博客。
+
+Github Pages: https://dengjiawen8955.github.io/bmft-blog/
+
+个人网站: https://bmft.tech/
 
 
-> Last Modified {docsify-updated}
+## 思维实验
+
+* [弯道超车的机会](1-throught/0302-change-of-%20corner-overtaking.md)
+
+
+## 程序改变世界
+
+## 有故事的人很多
 
 
 ## 联系方式
