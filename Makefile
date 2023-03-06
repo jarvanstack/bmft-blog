@@ -11,7 +11,8 @@ install:
 ## gen: Gen _sidebar.md file
 .PHONY: gen
 gen:
-	cd $(docsDir) && gitbook-summary && cd $(make_dir)
+	# cd $(docsDir) && gitbook-summary && cd $(make_dir)
+	printf "bmft.tech User README as sidebar, Don't Gen \n"
 ## up: Docker compose up server
 .PHONY: up
 up:

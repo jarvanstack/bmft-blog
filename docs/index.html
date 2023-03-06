@@ -39,7 +39,7 @@
       auto2top: true,
       coverpage: true,
       executeScript: true,
-      loadSidebar: true,
+      // loadSidebar: true, // 如果使用 README 作为侧边栏，这里需要注释掉
       // loadNavbar: true,
       // mergeNavbar: true,
       maxLevel: 4,
@@ -60,7 +60,7 @@
       search: {
         hideOtherSidebarContent: false,
         paths: 'auto',
-        placeholder: '请输入要搜索的关键字',
+        placeholder: '搜索',
         noData: '没有结果',
         depth: 6,
       },
@@ -75,16 +75,18 @@
         function (hook, vm) {
           hook.beforeEach(function (html) {
             let edit_base_url = repo + '/blob/master/docs/';
-            let edit_url =
+            let url =
               edit_base_url +
               vm.route.file;
-            let editHtml = '[📝 编辑本文](' + edit_url + ')\n';
-            return (
-              html +
-              '\n----\n' +
-              editHtml
-            );
-          });
+            var editHtml = '[编辑](' + url + ')'
+            return html
+              + '\n----\n'
+              + editHtml
+              + '\n\n'
+              + '{docsify-updated}'
+              + '\n\n'
+              + '阅读数: <span id="busuanzi_value_site_pv"></span>'
+          })
         },
       ],
     }
@@ -93,17 +95,8 @@
   </script>
 
 
-  <!-- 百度统计 -->
-  <script>
-    var _hmt = _hmt || [];
-    (function () {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?26aafdc51f546a6c9caca26e7174a692";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
+  <!-- 访问量统计 -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <!-- cdn -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- 全文搜索 -->
