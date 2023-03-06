@@ -4,7 +4,7 @@
 
 Github Pages: https://dengjiawen8955.github.io/bmft-blog/
 
-个人网站: https://bmft.tech/
+国内个人网站: https://bmft.tech/
 
 ## 程序篇
 
