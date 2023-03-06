@@ -6,15 +6,16 @@ Github Pages: https://dengjiawen8955.github.io/bmft-blog/
 
 个人网站: https://bmft.tech/
 
+## 程序篇
 
-## 思维实验
+
+## 思维篇
 
 * [弯道超车的机会](1-throught/0302-change-of-%20corner-overtaking.md)
 
 
-## 程序改变世界
 
-## 有故事的人很多
+## 故事篇
 
 
 ## 联系方式

@@ -26,8 +26,9 @@
     console.log('repo:');
     console.log(repo);
 
-
-    document.title = repo
+    // 以 / 分割，取最后一段
+    let title = repo.split('/').pop();
+    document.title = title;
     document.querySelector('meta[name="keywords"]').setAttribute('content', keywords);
     document.querySelector('meta[name="description"]').setAttribute('content', description);
 
