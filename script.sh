@@ -37,8 +37,12 @@ elif [ "$action" = "merge" ]; then
     uglifyjs "$file" -o "$file"
   done
 
-  # Combine all script files in the input directory into a single output file
-  cat "$input"/*.js > "$output"
+  # Combine all script files in the input directory into a single output file, not include output file
+  for file in "$input"/*.js; do
+    if [ "$file" != "$output" ]; then
+      cat "$file" >> "$output"
+    fi
+  done
   echo "merged files in $input to $output"
 # Handle an unknown action
 else
