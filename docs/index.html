@@ -41,14 +41,15 @@
       coverpage: true,
       executeScript: true,
       loadSidebar: loadSidebar, // 如果使用 README 作为侧边栏，这里需要注释掉
-      // loadNavbar: true,
-      // mergeNavbar: true,
+      loadNavbar: true,
+      mergeNavbar: true,
       maxLevel: 4,
       subMaxLevel: 2,
       repo: repo,
       formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md' // See #301
+        '/.*/_sidebar.md': '/_sidebar.md', // See #301
+        '/.*/_navbar.md': '/_navbar.md', // See #301
       },
       // 字数统计
       count: {
