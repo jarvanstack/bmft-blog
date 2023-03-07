@@ -1,5 +1,5 @@
   <!-- 访问量统计 -->
-  <script src="https://cdn.jsdelivr.net/gh/dengjiawen8955/website-view/website-view.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/dengjiawen8955/website-view@v0.0.2/website-view.min.js"></script>
   <!-- docsify -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- 全文搜索 -->

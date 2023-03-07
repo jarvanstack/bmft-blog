@@ -6,12 +6,12 @@ Github Pages: https://dengjiawen8955.github.io/bmft-blog/
 
 国内个人网站: https://bmft.tech/
 
-## 程序篇
-
-
 ## 思维篇
 
-* [弯道超车的机会](1-throught/0302-change-of-corner-overtaking.md)
+* [邓嘉文：弯道超车的机会](1-throught/0302-change-of-corner-overtaking.md)
+
+## 程序篇
+
 
 
 
