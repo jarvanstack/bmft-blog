@@ -17,6 +17,8 @@
   <!-- 主题 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
 
 </head>
 
@@ -114,7 +116,18 @@
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
 
-  
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '2ffc22a5e05bae613680',
+      clientSecret: '72a4a3d6039c9d9bc8537ba069a934313a7e012e',
+      repo: 'docsify-template',
+      owner: 'dengjiawen8955',
+      admin: ['dengjiawen8955'],
+      distractionFreeMode: false,
+    })
+  </script>
 </body>
 
 </html>
