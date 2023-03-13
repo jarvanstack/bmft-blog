@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
   <meta charset="UTF-8">
@@ -38,19 +38,22 @@
   <script>
 
     window.$docsify = {
+      // 核心配置
       auto2top: true,
       coverpage: true,
       executeScript: true,
-      loadSidebar: loadSidebar, // 如果使用 README 作为侧边栏，这里需要注释掉
-      loadNavbar: true,
-      mergeNavbar: true,
-      maxLevel: 4,
-      subMaxLevel: 2,
-      repo: repo,
       formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
+      loadNavbar: true,
+      mergeNavbar: false,
+
+      // sidebar
+      loadSidebar: loadSidebar,
+      maxLevel: 4,
+      subMaxLevel: 3,
+
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md', // See #301
-        '/.*/_navbar.md': '/_navbar.md', // See #301
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md',
       },
       // 字数统计
       count: {
@@ -81,7 +84,7 @@
             let url =
               edit_base_url +
               vm.route.file;
-            var editHtml = '[✏️编辑](' + url + ')'
+            var editHtml = '[✏️编辑文章](' + url + ')'
             var pvHTML = ''
             if (WebsitePV != 0) {
               pvHTML = '📖总阅读量 ' + WebsitePV
@@ -90,7 +93,7 @@
               + '\n----\n'
               + editHtml
               + '\n\n'
-              + '⏱️更新时间 {docsify-updated}'
+              + '⏰更新时间 {docsify-updated}'
               + '\n\n'
               + pvHTML
           })
@@ -107,11 +110,11 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
 
+  
 </body>
 
 </html>
