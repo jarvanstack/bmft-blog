@@ -2,7 +2,9 @@
 
 golang 中实现的零依赖、高性能、并发 mysqldump 工具。
 
-地址: https://github.com/dengjiawen8955/mysqldump/blob/master/README-zh.md
+项目地址: https://github.com/dengjiawen8955/mysqldump/blob/master/README-zh.md
+
+文章地址: https://bmft.tech/#/2-program/0325-golang-implements-mysqldump
 
 
 ## Features
