@@ -1,10 +1,4 @@
-# 第一篇：弯道超车的机会
-
-邓嘉文，国际学院软件工程（中外）专业学生，绩点3.16，曾担任大数据云计算协会副会长，重邮移动互联网研究中心实验室服务器平台负责人，重邮极客勤奋蜂实验室 Golang 负责人，关二爷科技有限公司创始人，HelloGithub 团队核心成员，累计 GitHub Repository 数量 130+，个人技术博客阅读量过百万。
-
-毕业去向：B站
-
-![自拍1](https://markdown-1304103443.cos.ap-guangzhou.myqcloud.com/2022-02-04383083461b9ba6f6918d7c33be305b0.jpg)
+# 弯道超车的机会
 
 ##  前言
 
@@ -123,7 +117,7 @@
 
 我后来选择到哔哩哔哩实习。
 
-秋招有幸拿到了阿里，华为，oppo，深信服，奇安信，兴业银行的 offer 和哔哩哔哩的转正 offer，目前签约哔哩哔哩。
+秋招有幸拿到了阿里，华为，B站，oppo，深信服，奇安信，兴业银行等公司的 offer。
 
 ### 大四
 
@@ -259,10 +253,6 @@ https://github.com/dengjiawen8955
 * 公众号
 
 ![公众号](https://markdown-1304103443.cos.ap-guangzhou.myqcloud.com/2022-02-04公众号邓嘉文Javan搜索50K.png)
-
-* 微信
-
-![微信](https://markdown-1304103443.cos.ap-guangzhou.myqcloud.com/2022-02-04dcd17d73a5dba82be39723ae07f73bd.jpg)
 
 ## 特别推荐
 
