@@ -1,4 +1,4 @@
-# 弯道超车的机会
+# 思维篇（一）弯道超车的机会
 
 原文地址：https://bmft.tech/#/1-throught/0302-change-of-corner-overtaking
 
