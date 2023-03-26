@@ -37,6 +37,10 @@ serve: gen
 	# 使用 nginx 代理 docs 目录
 	docker run --rm -it -p 3000:80 -v $(make_dir)/docs:/usr/share/nginx/html:ro nginx
 
+## sync: Sync local repo to cos bucket
+.PHONY: sync
+sync: push
+	coscli sync  docs/ cos://bmft-blog/ -r
 
 ## help: Show this help info.
 .PHONY: help
