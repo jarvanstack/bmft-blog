@@ -18,7 +18,7 @@ golang 中实现的零依赖、高性能、并发 mysqldump 工具。
 ### Create Table and Insert Test Data
 
 ```sql
-DROP TABLE IF EXISTS `test`;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
+DROP TABLE IF EXISTS `test`;
 
 CREATE TABLE `test` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
