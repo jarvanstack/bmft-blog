@@ -118,7 +118,7 @@
 ![g2ykj](https://markdown-1304103443.cos.ap-guangzhou.myqcloud.com/2022-02-04g2y2.jpg)
 
 
-秋招有幸拿到了阿里，华为，B站，oppo，深信服，奇安信，兴业银行等公司的 offer。
+秋招有幸拿到了阿里，华为，B站，oppo等公司的 offer。
 
 ### 大四
 
