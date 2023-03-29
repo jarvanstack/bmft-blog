@@ -23,8 +23,8 @@ https://github.com/dengjiawen8955
 
 * 公众号
 
-![公众号](https://markdown-1304103443.cos.ap-guangzhou.myqcloud.com/2023-3/202303251819679.png)
+![公众号](https://image.bmft.tech/blog/2023/202303291643509.png)
 
 * 微信
 
-![微信](https://markdown-1304103443.cos.ap-guangzhou.myqcloud.com/2023-3/202303282036704.png)
+![](https://image.bmft.tech/blog/2023/202303291645166.png)
