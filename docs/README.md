@@ -27,4 +27,4 @@ https://github.com/dengjiawen8955
 
 * 微信
 
-![](https://image.bmft.tech/blog/2023/202303291645166.png)
+![weixin](https://image.bmft.tech/blog/2023/202303291645166.png)
