@@ -11,7 +11,8 @@ install:
 ## gen: Gen _sidebar.md file
 .PHONY: gen
 gen:
-	cd $(docsDir) && gitbook-summary && cd $(make_dir)
+	# cd $(docsDir) && gitbook-summary && cd $(make_dir)
+	echo "自己手写_sidebar"
 
 ## up: Docker compose up server
 .PHONY: up
