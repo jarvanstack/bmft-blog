@@ -1,5 +1,5 @@
 # 输出的文件 
-outputfile: _sidebar.md
+outputfile: _sidebar.gen.md
 # 忽略的文件 默认是 .git 和 _
 ignores:
   - _
