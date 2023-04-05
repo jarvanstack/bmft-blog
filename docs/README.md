@@ -1,6 +1,6 @@
 ## 思维篇
 
-* [弯道超车的机会](throught/chance.md)
+!> * [弯道超车的机会](throught/chance.md)
 
 ## 程序篇
 
