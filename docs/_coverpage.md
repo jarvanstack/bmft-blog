@@ -1,6 +1,6 @@
 # bmft-blog <small>0.0</small>
 
-> 邓嘉文Jarvan的个人博客。
+> 半亩方糖知识分享。
 
 <br>
 
@@ -13,5 +13,10 @@
 
 <br>
 
-[GitHub](https://github.com/dengjiawen8955)
+[GitHub](https://github.com/jarvanstack)
 [开始阅读](/README.md)
+
+
+
+
+
