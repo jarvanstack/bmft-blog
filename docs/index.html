@@ -95,7 +95,7 @@
             if (WebsitePV != 0) {
               pvHTML = '📖总阅读量 ' + WebsitePV
             }
-            let ICP = '[蜀ICP备2021004630](http://beian.miit.gov.cn/)' 
+            let ICP = '<p align="center"><a href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备2021004630</a></p>' 
             return html
               + '\n----\n'
               + editHtml
@@ -104,7 +104,6 @@
               + '\n\n'
               + pvHTML
               + '\n\n'
-              + '\n----\n'
               + '\n----\n'
               + ICP
           })
@@ -128,9 +127,5 @@
 
 
 </body>
-
-<!-- ICP footer -->
-
-<footer>你好</footer>
 
 </html>
