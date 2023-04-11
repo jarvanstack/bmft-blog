@@ -1,6 +1,6 @@
 # 弯道超车的机会
 
-原文地址：https://bmft.tech/#/1-throught/0302-chance
+原文地址：https://bmft.tech/#/throught/chance
 
 ##  前言
 
@@ -251,7 +251,7 @@ https://github.com/jarvanstack
 
 * 公众号
 
-![公众号](https://image.bmft.tech/blog/2023/202303291643509.png)
+![公众号](https://image.bmft.tech/blog/2023/202304111908163.jpg)
 
 ## 特别推荐
 
