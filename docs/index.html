@@ -29,11 +29,10 @@
     console.log('repo:');
     console.log(repo);
 
-    // 以 / 分割，取最后一段
-    // let title = repo.split('/').pop();
+    // Use title as keywords and description
     document.title = title;
-    document.querySelector('meta[name="keywords"]').setAttribute('content', keywords);
-    document.querySelector('meta[name="description"]').setAttribute('content', description);
+    document.querySelector('meta[name="keywords"]').setAttribute('content', title);
+    document.querySelector('meta[name="description"]').setAttribute('content', title);
 
   </script>
 
@@ -42,7 +41,7 @@
     window.$docsify = {
       // 核心配置
       auto2top: true,
-      coverpage: false,
+      coverpage: true,
       executeScript: true,
       formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
       loadNavbar: true,
